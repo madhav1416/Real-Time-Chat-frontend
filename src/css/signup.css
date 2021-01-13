@@ -1,0 +1,37 @@
+.sign {
+  border: 1px solid lightgrey;
+  margin-top: 120px;
+  margin-left: 35%;
+  border-radius: 8px;
+  height: 530px;
+  width: 430px;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.sign-header {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.sign-form > form > Button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #4ac959;
+  font-family: sans-serif;
+}
+#outlined-basic {
+  width: 250px;
+  border-color: #4ac959;
+}
+
+.sign-link {
+  margin-top: 30px;
+  font-size: medium;
+}
+
+.sign-link-link {
+  color: gray;
+  text-decoration: none;
+}

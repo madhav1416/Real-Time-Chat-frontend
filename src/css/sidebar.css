@@ -1,0 +1,41 @@
+.sidebar {
+  color: white;
+  background-color: #4ac959;
+  height: 70px;
+  position: fixed;
+}
+.sidebar-header {
+  display: flex;
+}
+.sidebar-header > h2 {
+  margin-top: 17px;
+}
+
+.sidebar-avatar {
+  margin: 15px;
+  background-color: #4ac959;
+}
+
+.sidebar-icon {
+  opacity: 0.9;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.sidebar-list {
+  display: flex;
+  border-bottom: 1pt solid lightgray;
+  height: 71.3px;
+  border-radius: 6px;
+}
+.sidebar-list > h4 {
+  color: black;
+  font-size: large;
+  margin-left: 13px;
+}
+.sidebar-list1 > :hover {
+  background-color: #f5f5f5;
+}
+.sidebar-list1 {
+  border-right: 1pt solid lightgray;
+}
